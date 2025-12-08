@@ -207,5 +207,6 @@ marimo/_lsp/
 __marimo__/
 
 # Custom
-*.csv
+ALS_vs_HC_converted.csv
+voc_als_features.csv
 .DS_Store

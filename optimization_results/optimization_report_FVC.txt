@@ -1,0 +1,20 @@
+Model: svr
+CV R2: 0.2943
+Params: {'regressor__C': 10, 'regressor__epsilon': 0.01, 'regressor__gamma': 'scale', 'selector__k': 100}
+------------------------------
+Model: elasticnet
+CV R2: 0.2881
+Params: {'regressor__alpha': 10, 'regressor__l1_ratio': 0.1, 'selector__k': 50}
+------------------------------
+Model: random_forest
+CV R2: 0.2709
+Params: {'regressor__max_depth': 5, 'regressor__min_samples_leaf': 10, 'regressor__n_estimators': 100, 'selector__k': 50}
+------------------------------
+Model: ridge_poly
+CV R2: 0.2631
+Params: {'regressor__alpha': 1000, 'selector__k': 50}
+------------------------------
+Model: xgboost
+CV R2: 0.2497
+Params: {'regressor__learning_rate': 0.01, 'regressor__max_depth': 3, 'regressor__n_estimators': 200, 'regressor__subsample': 0.8, 'selector__k': 50}
+------------------------------
